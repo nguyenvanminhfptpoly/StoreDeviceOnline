@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:layout_weight="10">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_weight="3">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:adjustViewBounds="true"
+            android:id="@+id/img_giohang"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="7"
+        android:layout_margin="5dp"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/tv_tengiohang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tên món hàng"
+            android:textColor="#E91E63"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/tv_giagiohang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Số lượng"
+            android:textColor="#2196F3"
+            android:textSize="15dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:id="@+id/btn_so"
+                android:focusable="false"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="1"
+                android:textColor="#000"
+                android:background="#fff"/>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
